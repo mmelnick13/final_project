@@ -15,4 +15,4 @@ Looking to predict the season based on the crime
 
 ## GitHub
 ### Description of communication process
-Team has created a slack group where we will connect with one another. Additiionally, we have shared cell phone numbers and emails to ensure we can get in touch with each other outside of class time.
+Team has created a slack group where we will connect with one another. Additionally, we have shared cell phone numbers and emails to ensure we can get in touch with each other outside of class time.
