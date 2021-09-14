@@ -2,16 +2,16 @@
 
 ## Presentation
 - Selected topic:
-Analyzing Airbnb data for Chicago 
+Analyzing Airbnb crime in Chicago,  
 
 - Reason why they selected their topic:
-Curious to see the number of Airbnb's in Chicago and the trending price to stay in one
+Curious to see the crime rate in Chicago with the increase in mentions in the news.
 
 - Description of their source of the data:
-The data was garnered from the Inside Airbnb website. The Inside Airbnb site is sourced from publicly available information from the Airbnb site. The data has been analyzed, cleansed and aggregated where appropriate to faciliate public discussion. 
+The data was garnered from the Federal Bureau of Investigation Crime Data Explorere (CDE). The CDE provides select datasets for download. Incident-based data by state, summary data estimates, and data about other specific topics may be downloaded in CSV files from the selections below. Data are also available via the Crime Data API, a read-only web service that returns JSON or CSV data, and provides experienced users access to large amounts of UCR data to use and share.
 
 - Questions they hope to anwser with the data:
-Ability to predict the cost of Airbnbs
+Looking to predict the season based on the crime
 
 ## GitHub
 ### Description of communication process
