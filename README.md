@@ -2,7 +2,7 @@
 
 ## Presentation
 - Selected topic:
-Analyzing Airbnb crime in Chicago,  
+Analyzing crime in Chicago,  
 
 - Reason why they selected their topic:
 Curious to see the crime rate in Chicago with the increase in mentions in the news.
