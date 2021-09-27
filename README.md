@@ -30,6 +30,10 @@ Additionally, the model obviously addresses the question or problem the team is
 solving.
 
 ### Description of the visualization phase of the project:
+Utilized Tableau to visualize the data for this project. Tableau created various graphs to highlight the data for each season and also let us look more closely into the Summer timeframe. Images and link to the full Tableau story board are below.
+
+Tableau worksheet: [https://public.tableau.com/app/profile/morgan.melnick/viz/CapstoneProject_16323549008720/CapstoneProject?publish=yes](url)
+
 ![1](Tableau_1.PNG)
 
 ![2](Tableau_2.PNG)
@@ -44,7 +48,6 @@ solving.
 
 ![7](Tableau_7.PNG)
 
-Tableau worksheet: [https://public.tableau.com/app/profile/morgan.melnick/viz/CapstoneProject_16323549008720/CapstoneProject?publish=yes](url)
 
 Google Slides: [https://docs.google.com/presentation/d/1rkWUOL07KlC43fTYwNyxtomenueDqG3A6acr1GFxLjw/edit#slide=id.gf126da89b8_0_177](url)
 
