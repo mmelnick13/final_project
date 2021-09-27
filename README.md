@@ -1,7 +1,7 @@
 # Final Project
 
 ## Presentation
-### Selected topic and Rationale:
+### Selected topic and rationale:
 Our team bonded over our fascination with true crime. We started chatting about the Gabby Petito case that was ongoing over the course of this project. We also mentioned how we had seen what appeared to be an increase in headlines on crime in Chicago. Based on these two discussions we thought it would be interesting to see what is going on with crime in Illinois.  
 
 ### Description of the source of the data:
