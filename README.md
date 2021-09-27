@@ -30,7 +30,19 @@ Additionally, the model obviously addresses the question or problem the team is
 solving.
 
 ### Description of the visualization phase of the project:
-![1](Tableau 1.PNG)
+![1](Tableau_1.PNG)
+
+![2](Tableau_2.PNG)
+
+![3](Tableau_3.PNG)
+
+![4](Tableau_4.PNG)
+
+![5](Tableau_5.PNG)
+
+![6](Tableau_6.PNG)
+
+![7](Tableau_7.PNG)
 
 Tableau worksheet: [https://public.tableau.com/app/profile/morgan.melnick/viz/CapstoneProject_16323549008720/CapstoneProject?publish=yes](url)
 
