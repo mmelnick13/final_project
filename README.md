@@ -29,7 +29,9 @@ score
 Additionally, the model obviously addresses the question or problem the team is
 solving.
 
+### Description of the visualization phase of the project:
+
+Tableau worksheet: [https://public.tableau.com/app/profile/morgan.melnick/viz/CapstoneProject_16323549008720/CapstoneProject?publish=yes](url)
 
 Google Slides: [https://docs.google.com/presentation/d/1rkWUOL07KlC43fTYwNyxtomenueDqG3A6acr1GFxLjw/edit#slide=id.gf126da89b8_0_177](url)
 
-Tableau worksheet: [https://public.tableau.com/app/profile/morgan.melnick/viz/CapstoneProject_16323549008720/CapstoneProject?publish=yes](url)
