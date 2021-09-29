@@ -18,6 +18,20 @@ The data was garnered from the Federal Bureau of Investigation Crime Data Explor
 database, or database connects to the model) ✓ Includes at least two tables (or collections, if using MongoDB) ✓ Includes at least one join using the database language (not including any joins in
 Pandas) ✓ Includes at least one connection string (using SQLAlchemy or PyMongo)
 
+## Database
+In this project we will create an RDS instance to host our cleaned data into our database, in order to achieve that we will use the sqlalchemy which is a Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL. We will connect our pgAdmin to the RDS instance to visualize the data.
+
+Setting up a Postgres database using AWS's relational database service (RDS)
+![image](https://user-images.githubusercontent.com/82984956/135342026-6057f382-ce50-4b08-b322-96fa6e740929.png)
+
+Import the data from the CSV file using pandas and preform a cleaning 
+![image](https://user-images.githubusercontent.com/82984956/135342074-8cf11f74-cd50-44f7-b5ac-67d773bdb944.png)
+
+Configure and connect to the Database in the RDS using the db_string and load the cleaned data into the database
+![image](https://user-images.githubusercontent.com/82984956/135342130-795037db-8313-4dab-8b0f-c2f94b7aeeb4.png)
+
+Connect to PgAdmin to check the new table in the arrestee database
+![image](https://user-images.githubusercontent.com/82984956/135342160-39a8bdcc-7684-4a80-95a8-3ef409d220f8.png)
 
 ## Machine Learning
 
@@ -125,7 +139,6 @@ Tableau worksheet: [https://public.tableau.com/app/profile/morgan.melnick/viz/Ca
 ![6](Tableau_6.PNG)
 
 ![7](Tableau_7.PNG)
-
 
 Google Slides: [https://docs.google.com/presentation/d/1rkWUOL07KlC43fTYwNyxtomenueDqG3A6acr1GFxLjw/edit#slide=id.gf126da89b8_0_177](url)
 
