@@ -104,6 +104,8 @@ We chose this model because random forests can run efficiently on large datasets
 
 Based on the confusion matrix results, we found that our model ran successfully with an accuracy score of 0.9749816041206769. Therefore, our model accurately predicts the season for when a crime is commited in IL 97% of the time. In addition, the precision, recall, and f1 score for predicting the season align with the accuracy score.
 
+![confusion_matrix](https://github.com/mmelnick13/final_project/blob/main/findings.png?raw=true)
+
 ### Description of the visualization phase of the project:
 Utilized Tableau to visualize the data for this project. Tableau created various graphs to highlight the data for each season and also let us look more closely into the Summer timeframe. Images and link to the full Tableau story board are below.
 
