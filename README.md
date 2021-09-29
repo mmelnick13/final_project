@@ -37,13 +37,14 @@ We chose this model because random forests can run efficiently on large datasets
 
 #### OneHotEncoder
 
-- Since machine learning algorithms do not work with categorical data directly, we must map all categorical data to integer values. We used scikit-learn's `OneHotEncoder` module to encode textual data into numerical data. First, we created a `OneHotEncoder` instance. Next, we used scikit-learn's `fit_transform()` method to train the list of categorical variables in order to convert the categorical data into numerical data in a pandas DataFrame. Then, we added the encoded variable names to the DataFrame. Lastly, we merged the encoded features and dropped the originals.
+- Since machine learning algorithms do not work with categorical data directly, it is necessary that we map all categorical data to integer values. We used scikit-learn's OneHotEncoder module to encode textual data into numerical data. First, we created a OneHotEncoder instance. Next, we used scikit-learn's fit_transform() method to train the list of categorical variables in order to convert the categorical data into numerical data in a pandas DataFrame. Then, we added the encoded variable names to the DataFrame. Lastly, we merged the encoded features and dropped the originals.
 
 #### Feature Engineering 
 
 - Removed null values and unnecessary columns related to the season and unique identifiers (ARRESTEE_ID, INCIDENT_ID, ARRESTEE_SEQ_NUM, ARREST_NUM, CLEARANCE_IND,FF_LINE_NUMBER, ARREST_TYPE_ID, OFFENSE_ID NUMBER, INCIDENT_ID NUMBER, LOCATION_ID, LOCATION_CODE) from the DataFrame.
 
 #### Feature Selection
+
 - Based on the dataset, the attributes chosen for feature selection include variables pertaning to demographics, offense, location, and arrest information to build a model to predict the season in which the most crimes take place in IL.  
 
     **Features**
@@ -74,21 +75,21 @@ We chose this model because random forests can run efficiently on large datasets
 
 #### Split into training and testing sets
 
-- The data was split into random train and test subsets using scikit-learn's `model_selection` package and its  `train_test_split()` function.
+- The data was split into random train and test subsets using scikit-learn's model_selection package and its train_test_split() function.
 
 #### StandardScaler
 
-- We used scikit-learn's `StandardScaler` module to reduce the liklihood that large values will influence the model. First, we imported the StandardScaler module and created an instance of it as `scaler`. Next, we trained the scaler and transformed the data using StandardScaler's `fit()` and `transform()` methods to standardize the data in each column.
+- We used scikit-learn's StandardScaler module to reduce the chances that large values will influence the model. First, we imported the StandardScaler module and created an instance of it as scaler. Next, we trained the scaler and transformed the data using StandardScaler's fit() and transform() methods to standardize the data in each column.
 
 ### Random Forest Model
 
-#### `RandomForestClassifier()`
+#### RandomForestClassifier
 
-- We created a random forest instance using the random forest classifier, `RandomForestClassifier`. The paramaters used in this model were `n_estimators` and `random_state`. In this model, we created 128 random forests. 
+- We created a random forest instance using the random forest classifier, RandomForestClassifier. The paramaters used in this model were n_estimators and random_state. In this model, we created 128 random forests. 
   
 #### Fit the Model
 
-- We fit the random forest model to our `X_train_scaled` and `y_train` training datasets. 
+- We fit the random forest model to our X_train_scaled and y_train training datasets. 
   
 #### Make Predictions Using the Testing Data
 
